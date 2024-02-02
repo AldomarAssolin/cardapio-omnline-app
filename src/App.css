@@ -24,7 +24,7 @@
   }
   & > label {
     width: 30%;
-    background-color: #1f1f1f;
+    background-color: #044997;
     color: #f0f0f0;
     border-radius: 10px;
     padding: 0.5rem 0;
@@ -37,6 +37,9 @@
   }
 }
 
+input + label {
+  text-align: center;
+}
 
 input:checked + label {
   text-align: center;
