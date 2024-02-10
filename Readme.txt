@@ -1,3 +1,11 @@
+
+Criar cardápio de Dog e Bebidas.
+Cofigurar navegação para exibir cardápios.
+
+
+
+
+#### Concluido #####
 Criar um app de cardápio online, ex.: hastagTrainamentos no youtube.
 Com React e Vite em vez de create-react-app.
 Criar objetos no arquivo cardapio.js

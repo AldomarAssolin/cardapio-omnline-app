@@ -9,12 +9,14 @@ function CardLanche(props){
             <Card.Body>
                 <Card.Body className='d-flex align-items-center justify-content-between'>
                     <Card.Title>{props.nome}</Card.Title>
-                    <Card.Subtitle className="text-success">{props.preco}</Card.Subtitle>
                 </Card.Body>
                 <Card.Text>
                     {props.descricao}
                 </Card.Text>
             </Card.Body>
+            <CardFooter className='text-center'>
+                <Card.Subtitle className="text-success">{props.preco}</Card.Subtitle>
+            </CardFooter>
             <CardFooter className='text-center'>
                 <Button variant="success" >Adicionar ao Pedido</Button>
             </CardFooter>
